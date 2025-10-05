@@ -29,9 +29,9 @@
 
         <p class="return-text">To enter another email address, click the button below.</p>
 
-        <form action="emailList" method="post">
+        <form action="" method="post">
             <input type="hidden" name="action" value="join">
-            <button type="button" class="submit-btn" onclick="showForm()">Add Another Email</button>
+            <button type="submit" class="submit-btn">Add Another Email</button>
         </form>
     </div>
 </body>
