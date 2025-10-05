@@ -29,7 +29,7 @@
 
         <p class="return-text">To enter another email address, click the button below.</p>
 
-        <form action="" method="post">
+        <form action="emailList" method="post">
             <input type="hidden" name="action" value="join">
             <button type="button" class="submit-btn" onclick="showForm()">Add Another Email</button>
         </form>
